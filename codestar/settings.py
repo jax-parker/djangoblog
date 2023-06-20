@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangopart2.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['djangopart2.herokuapp.com', 'localhost', '8000-jaxparker-djangoblog-8byxjarg1l6.ws-eu100.gitpod.io']
 
 
 # Application definition
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_sumernote'
     'blog',
 ]
 
